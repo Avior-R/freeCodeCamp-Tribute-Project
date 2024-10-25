@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    padding: 20px; 
+    font-family: 'Merriweather', sans-serif;
+}
+h3 {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+body {
+    background-color: #f7f7f7;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+main {
+    background-color: #eeeeee;
+    margin: 40px;
+}
+#img-div {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+#image {
+    object-fit: contain;
+    border-radius: 10px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+#img-caption {
+    padding-top: 5px;
+}
+#tribute-info {
+    text-align: left;
+    font-size: 20px;
+    padding: 30px 70px;
+    max-width: 600px;
+    margin: 10px auto;
+}
+#headline {
+    text-align: center;
+    padding: 30px;
+    background-color: #eeeeee;
+}
+li {
+    margin: 20px;
+}
+.bold {
+    font-weight: bold;
+}
+.quote {
+    margin: 0 auto 50px auto;
+    max-width: 600px;
+    text-align: left;
+}
+.quote-text {
+    margin: 30px 30px 5px;
+    font-style: italic;
+}
+.quote-author {
+    text-indent: 30px;
+}
